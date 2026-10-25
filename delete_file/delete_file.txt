@@ -1,0 +1,12 @@
+-- to delete a single file
+rm file1.txt
+
+-- to delete multiple files
+rm file2.txt file3.txt
+
+-- to delete all the files with "file" as name
+rm file*.txt
+
+-- to delete all the files
+rm *
+

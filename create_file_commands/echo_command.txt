@@ -1,0 +1,6 @@
+-- creating a file with content in it
+echo "Hi, how are you?" > file6.txt
+
+-- replace the existing content of a file with new content
+echo "I am fine." > file6.txt
+

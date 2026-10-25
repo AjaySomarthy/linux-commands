@@ -1,0 +1,2 @@
+-- displays the content of a file
+cat file1.txt

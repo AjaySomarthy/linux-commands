@@ -1,0 +1,9 @@
+-- prints the current username
+whoami
+
+-- displays the version information
+whoami --version
+
+displays the help message
+whoami --help
+

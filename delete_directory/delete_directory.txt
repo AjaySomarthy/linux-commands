@@ -1,0 +1,18 @@
+-- to delete a single directory
+rm -r apple
+
+-- to delete a single directory (same as above)
+rm -r ball/
+
+-- to delete multiple directories
+rm -r cat dog
+
+-- to delete all the subdirectories and files
+rm -r egg/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- to delete a single empty directory
+rmdir fan
+
+-- to delete multiple empty directories
+rmdir gun house
+

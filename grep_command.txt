@@ -1,0 +1,50 @@
+-- prints all the lines which are having "how" {includes "however", "How", "HOW"}
+grep -i "how" file1.txt
+
+-- prints all the lines which are having lower case "how" word {includes "however" and excludes "How", "HOW"}
+grep "how" file1.txt
+
+-- displays the exact word "how" lines {excludes "however", "How", "HOW"}
+grep -w "how" file1.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- displays the line number and the line for the matching word (lower case "how" only)
+grep -n "how" file1.txt
+
+-- to ignore case we use -in
+grep -in "how" file1.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- counts the number of matching lines {if line1 has 3 words, it consider as 1 count}
+grep -c "how" file1.txt
+
+-- to ignore case we use -ic
+grep -ic "how" file1.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- prints the filename, if the given word present in the file (lower case "how")
+grep -l "how" file1.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- displays the lines that do not contain "how" (lowewr case "how")
+grep -v "how" file1.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- prints the matching text for those many times matched
+grep -o "how" file1.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- prints the lines which are having either "how" or "for"
+grep -E "how|for" file1.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- prints the lines only if the search matches the entire line exactly
+grep -x "hi, how are you?" file1.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- prints the matching lines and 2 lines after matching
+grep -A 2 "how" file1.txt
+
+-- prints the matching lines and 2 lines before matching
+grep -B 2 "how" file1.txt
+
+-- prints the matching lines and 2 lines after and before matching
+grep -C 2 "how" file1.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- searches recursively in all the subdirectories and all the files of a current directory
+grep -r "how" alpha/
+
+
+

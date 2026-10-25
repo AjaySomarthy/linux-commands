@@ -16,3 +16,6 @@ rmdir fan
 -- to delete multiple empty directories
 rmdir gun house
 
+-- It will delete all the empty subdirectories and if there is any nonempty directory, it will throw an error 
+rmdir *
+

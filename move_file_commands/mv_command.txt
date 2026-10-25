@@ -1,0 +1,6 @@
+-- moving a file to another directory
+mv file1.txt cat/
+
+-- moving a file to another directory and renae the file
+mv file2.txt cat/file100.txt
+

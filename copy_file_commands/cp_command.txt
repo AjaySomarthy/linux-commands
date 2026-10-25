@@ -1,0 +1,22 @@
+1) Copying a file to a directory
+
+-- copying a file to a directory
+cp file1.txt apple/
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2) Copying multiple files to a directory
+
+-- copying multiple files to a directory
+cp file2.txt file3.txt /ball
+
+-- copying all the files to a directory
+cp * /cat/
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3) Copying the file content to another file
+
+-- copying content of a file to another file (If file5.txt is empty file)
+cp file4.txt file5.txt
+
+-- copying content of a file to another file means replace the content with existing content (If file7.txt is non empty file)
+cp file6.txt file7.txt
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,4 @@
+Note : 
+For new created directory the default permission is 755 rwxr-xr-x
+For new created file the default permission is 644 rw-r--r--
+

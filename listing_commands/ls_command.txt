@@ -1,0 +1,25 @@
+-- displays all the directories and files
+ls
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- displays all the directories and files (same as above)
+ls -F
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- displays all the directories and files with permissions rwx, sizes in ascending order of file name
+ls -l
+
+-- displays all the directories and files with permissions rwx, sizes in ascending order of time stamp
+ls -ltr
+
+-- displays all the directories and files with permissions rwx, sizes (human readable format) in ascending order of time stamp
+ls -lhrt
+
+-- displays all the directories and files with permissions rwx, of all the mentioned folders
+ls -ld alpha beta
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- displays all the directories and files including hidden
+ls -a
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- displays all the directories, subdirectories and files
+ls -R
+
+

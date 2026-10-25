@@ -1,0 +1,21 @@
+-- switch to home directory without any argument
+cd
+
+-- switch to home directory with explicit argument tilde
+cd ~
+
+-- switch to root directory
+cd /
+
+-- refreshes the current directory
+cd .
+
+-- move up one level
+cd ..
+
+-- move up two levels
+cd ../..
+
+-- switch to previous directory you are in
+cd -
+

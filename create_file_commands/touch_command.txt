@@ -1,0 +1,5 @@
+-- creating a single empty file
+touch file1.txt
+
+-- creating multiple empty files
+touch file2.txt file3.txt file4.txt

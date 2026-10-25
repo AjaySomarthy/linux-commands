@@ -1,0 +1,5 @@
+-- to create a new file and edit the content in it
+vi file5.txt
+
+-- to modify an existing file with content in it
+vi file1.txt
